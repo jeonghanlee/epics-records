@@ -4,5 +4,5 @@ workflow "EPICS Record Page" {
 }
 
 action "GitHub Action for Docker" {
-  uses = "actions/docker/cli@76ff57a"
+  uses = "./actions/"
 }
