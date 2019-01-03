@@ -1,4 +1,4 @@
-FROM debian:stale-slim
+FROM debian:stable-slim
 USER root
 
 LABEL "com.github.actions.name"="Hello World"
